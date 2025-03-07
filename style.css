@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0px;
+}
+body{
+    background: linear-gradient(145deg,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
+}
+header{
+    min-height:70px;
+    text-align:left;
+    padding:10px 0px 10px 0px;
+    background: linear-gradient(to right,#2C3E50,#3b536a);
+    color: #BDC3C7;
+    font-family:montserrat;
+    text-shadow: 1px 1px 1px black;
+}
+.principal{
+    display: inline;
+}
+header h1,p{
+    padding-left:10px;
+}
+header h1{
+    font-size:150%;
+    transition-duration:0.5s;
+
+}
+header h1:hover{
+font-size:165%;
+}
+

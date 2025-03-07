@@ -1,0 +1,29 @@
+Paleta de Cores Tecnológicas
+Cor Primária (Fundo e elementos principais):
+Azul Escuro (Midnight Blue): #0A1E3F
+Cor sólida e profunda, perfeita para fundos e cabeçalhos. Ela transmite seriedade, confiança e um toque tecnológico.
+Cor Secundária (Texto principal e detalhes de fundo):
+Cinza Escuro (Gunmetal Gray): #2C3E50
+Um tom sofisticado de cinza que complementa bem o azul escuro e não sobrecarrega a visão, mantendo o design clean e profissional.
+Cor de Destaque (Botões e links de ação):
+Verde Neon (Lime Green): #00FF00
+Cores neon são populares em designs tecnológicos, e o verde neon transmite uma sensação de inovação e energia. Use-o para chamar atenção a botões de ação ou links importantes.
+Cor de Suporte (Elementos secundários e detalhes adicionais):
+Cinza Claro (Light Gray): #BDC3C7
+Para equilibrar os tons mais pesados, o cinza claro pode ser utilizado em áreas de texto secundário, ícones ou separadores.
+Cor de Acento (Destaques e elementos criativos):
+Azul Claro (Sky Blue): #3498DB
+Para um toque de frescor e modernidade, o azul claro pode ser usado para chamar a atenção sem ser tão vibrante quanto o verde neon. Excelente para links, títulos ou ícones.
+Exemplo de Uso das Cores no Layout:
+Fundo: Azul Escuro (#0A1E3F)
+Cabeçalhos: Cinza Escuro (#2C3E50)
+Texto principal: Cinza Claro (#BDC3C7)
+Botões/Links: Verde Neon (#00FF00) e Azul Claro (#3498DB) como hover ou destaque.
+Detalhes secundários: Azul Claro (#3498DB) e um pouco de verde neon (#00FF00) para pequenos ícones ou barras de progresso.
+Considerações para Acessibilidade:
+Certifique-se de que o contraste entre o texto e o fundo é suficiente para garantir boa legibilidade.
+Use o verde neon com moderação, pois é uma cor muito vibrante. Ele deve ser destacado em pequenas doses para evitar sobrecarga visual.
+Essa paleta traz um ar tecnológico, dinâmico e moderno, perfeito para um portfólio que reflete inovação e sofisticação. O que acha dessa proposta? Tem algo que você gostaria de ajustar ou adicionar?
+
+
+
