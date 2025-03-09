@@ -13,20 +13,59 @@ header{
     background: linear-gradient(to right,#2C3E50,#3b536a);
     color: #BDC3C7;
     font-family:montserrat;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 2px black;
 }
 .principal{
-    display: inline;
+    display: inline-block;
 }
 header h1,p{
+    font-size:2.5vw;
     padding-left:10px;
 }
 header h1{
-    font-size:150%;
     transition-duration:0.5s;
 
 }
 header h1:hover{
-font-size:165%;
+font-size:2.7vw;
+}
+main h1{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-family:montserrat;
+    color: #BDC3C7;
+}
+.parallax{
+    height: 45vh;
+    width: 100vw;
+    margin-top: 20px;
+    background-image: url('imagens/pexels-cookiecutter-17489155.jpg');
+   background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 0px 0px 15px 5px black;
+    filter:blur(2px);
+}
+.texto p{
+    display: inline-block;
+    background-color: #3498DB;
+    margin-left: 10vw;
+    width:40vw;
+    border-radius: 20px;
+}
+.texto ul{
+    display: inline;
+}
+.texto li{
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+.texto img{
+    height: 10vw;
+    width: 10vw;
+    display: inline-block;
 }
 
