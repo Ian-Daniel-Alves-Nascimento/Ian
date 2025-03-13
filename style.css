@@ -51,16 +51,16 @@ main h1{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    background-color: #3498DB;
+    margin: 10px 10px 10px 10px;
 }
 .texto{
-    flex: auto;
-    align-self: center;
+    flex-basis: 500px;
+    flex-grow: 1;
     color: #BDC3C7;
     background: linear-gradient(145deg,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
     border: 1px solid #BDC3C7;
     border-radius:10px;
-    box-shadow: 5px 5px 10px hsl(204, 62%, 40%);
+    box-shadow: 5px 5px 10px #0A1E3F;
 }
 .texto p{
     text-align: justify;
@@ -69,13 +69,11 @@ main h1{
 }
 .img{
    flex: auto;
-   align-self: flex-end;
-   margin: 0vh;
    text-align: right;
    
 }
 .img img{
-    margin: 5vh 10px 10px 4vw;
+    margin: 5vh 0px 10px 4vw;
     width: 50px;
     border-radius:50%;
     transition-duration:0.5s;
