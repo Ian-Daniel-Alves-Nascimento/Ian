@@ -1,5 +1,11 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin:0px;
 }
@@ -30,9 +36,12 @@ header h1:hover{
 font-size:2.7vw;
 }
 main h1{
+     font-family: caveat;
     padding: 20px 0px 10px 0px;
     text-align: center;
-    font-family:montserrat;
+    font-family: caveat;
+    font-size:3em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.466);
     color: #BDC3C7;
 }
 .parallax{
@@ -59,12 +68,14 @@ main h1{
     color: #BDC3C7;
     background: linear-gradient(145deg,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
     border: 1px solid #BDC3C7;
-    border-radius:10px;
+    border-radius:10px 2px;
     box-shadow: 5px 5px 10px #0A1E3F;
 }
 .texto p{
     text-align: justify;
     margin: 10px;
+    font-family: roboto;
+    font-size: 1.4em;
     text-indent: 10px;
 }
 .img{
@@ -76,11 +87,26 @@ main h1{
     margin: 5vh 0px 10px 4vw;
     width: 50px;
     border-radius:50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.521);
     transition-duration:0.5s;
     box-sizing: border-box;
 }
 .img img:hover{
     border: 1.5px solid #00FF00;
     width: 60px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.521);
+}
+@media screen and (min-width:1000px) {
+   .texto{
+    width: 500px;
+    position: relative;
+    left: 20%;
+   } 
+   .texto p{
+    font-size:130%;
+   }
+   .img img{
+    margin: 5vh 10px 10px 4vw;
+   }
 }
 
