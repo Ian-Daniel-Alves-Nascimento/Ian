@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <title>Meu Portfólio</title>
 </head>
 <body>
@@ -16,10 +17,41 @@
     <main>
         <h1> Meus Projetos</h1>
         <article class="parallax">
-            <section>
+            <section class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                   <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="imagens/designer.jpg" alt="" class="card-image">
+                        <p class="badge">Concepts</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae deleniti minima cumque dolor ipsam, doloribus eius? Minus nisi at, doloribus ratione numquam molestias iusto aliquid voluptate eum sapiente velit!</h2>
+                    </a>
+                   </li> 
+                   <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="imagens/designer.jpg" alt="" class="card-image">
+                        <p class="badge">Concepts</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae deleniti minima cumque dolor ipsam, doloribus eius? Minus nisi at, doloribus ratione numquam molestias iusto aliquid voluptate eum sapiente velit!</h2>
+                    </a>
+                   </li> 
+                   <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="imagens/designer.jpg" alt="" class="card-image">
+                        <p class="badge">Concepts</p>
+                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae deleniti minima cumque dolor ipsam, doloribus eius? Minus nisi at, doloribus ratione numquam molestias iusto aliquid voluptate eum sapiente velit!</h2>
+                    </a>
+                   </li> 
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+
             </section>
+            
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+           <script src="script.js"></script>
+
         </article>
-           <h1>Me Conheça</h1>
+           <h1 class="conheça">Me Conheça</h1>
            <article class="sobre">
            <section class="texto">
             <p>
