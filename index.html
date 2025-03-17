@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Meu Portfólio</title>
 </head>
 <body>
     <header>
-        <div class="principal">
-            <h1>Ian Daniel Alves Nacimento</h1>
-            <p>Meu Portfólio</p>
+        <div>
+            <h1 id="nome">Ian Daniel Alves Nacimento</h1>
+            <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <ul id="itens">
+             <li class="EM-CIMA"><a href="#"> Minhas redes sociais</a></li>
+             <li class="EM-CIMA"><a href="#"> Meu curriculo</a></li>
+             <li class="EM-CIMA"><a href="#"> Outros</a></li>
+            </ul>
         </div>
     </header>
     <main>
@@ -69,5 +75,15 @@
             </section>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+            }
+            else{
+            itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

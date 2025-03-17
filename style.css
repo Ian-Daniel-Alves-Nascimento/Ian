@@ -6,6 +6,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@keyframes appear {
+    from {
+        opacity: 0;
+       transform: translateX(100px); 
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 *{
     margin:0px;
     padding: 0;
@@ -24,18 +44,53 @@ header{
     text-shadow: 1px 1px 2px black;
 }
 .principal{
-    display: inline-block;
-}
-header h1,p{
-    font-size:2.5vw;
-    padding-left:10px;
-}
-header h1{
-    transition-duration:0.5s;
+    display: block;
+} 
 
+header h1{
+    display:block;
+    text-align: center;
+    font-size:5.5vw;
+    padding-left:10px;
+    transition-duration:0.5s;
 }
 header h1:hover{
-font-size:2.7vw;
+font-size:3.2vw;
+}
+
+#menu{
+    display: none;
+    position: relative;
+    margin-top: 10px;
+    left: 90%;
+    cursor: pointer;
+    font-size:5vw;
+    text-shadow:2px 2px 2px black;
+    transition-duration: 0.5s;
+}
+#menu:hover{
+    font-size: 5.5vw;
+}
+
+ ul {
+    display: none;
+    text-align: center;
+}
+.EM-CIMA{
+    animation: show 0.3s ease-in-out;
+    padding: 5px 0px 5px 0px;
+}
+
+.EM-CIMA a {
+    color: #BDC3C7;
+    text-decoration: none;
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.EM-CIMA a:hover{
+   text-shadow: 0px 0px 0.5px #00FF00;
+   text-decoration: underline;
 }
 
 main .mp{
@@ -145,6 +200,9 @@ main .mp{
     border: 1px solid #BDC3C7;
     border-radius:10px 2px;
     box-shadow: 5px 5px 10px #0A1E3F;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 .texto p{
     text-align: justify;
@@ -156,8 +214,11 @@ main .mp{
 .img{
    flex: auto;
    text-align: right;
-   
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 20%;
 }
+
 .img img{
     margin: 5vh 0px 10px 4vw;
     width: 50px;
@@ -173,7 +234,7 @@ main .mp{
 }
 
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:992px) {
    .texto{
     width: 500px;
     position: relative;
@@ -191,6 +252,28 @@ main .mp{
     .card-wrapper .swiper-slide-button{
         display: none;
     }
+
+    #menu{
+        display: inline;
+    }
+}
+@media screen and (min-width:700px){
+    header h1{
+        font-size:3vw;
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+    #itens{
+        display: block;
+        margin: 10px;
+    }
+    .EM-CIMA {
+        display: inline;
+        padding: 0px 10px 0px 10px;   
+    }
+
 }
 
 
