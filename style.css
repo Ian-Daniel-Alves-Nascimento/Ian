@@ -65,7 +65,7 @@ header{
 } 
 
 header h1{
-    display:block;
+    display:inline;
     text-align: center;
     font-size:5vw;
     padding-left:10px;
@@ -91,7 +91,9 @@ font-size:5.3vw;
     display: none;
     animation: appear2 0.5s linear;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.329);
-    list-style: none;
+    margin-top: 10px;
+    list-style:circle;
+    list-style-position: inside;
     text-align: left;
     background: linear-gradient(120deg, #0A1E3F, #0A1E3F, transparent );
 }
@@ -119,6 +121,7 @@ font-size:5.3vw;
 
 #redes ul{
     display: none;
+    animation: appear2 0.5s linear;
 }
 
 #redes span{
@@ -126,9 +129,8 @@ font-size:5.3vw;
 }
 
 #redes:hover ul{
-    animation: show 0.5s ease-in-out;
     display: inline;
-    padding-top: 10px;
+    padding: 10px 0px 0px 0px;
     list-style: none;
 }
 
@@ -316,6 +318,7 @@ main .mp{
 }
 @media screen and (min-width:700px){
     header h1{
+        display: block;
         font-size:3vw;
         text-align: center;
     }
