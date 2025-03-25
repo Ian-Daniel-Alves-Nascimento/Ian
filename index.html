@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="csslink" rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Meu Portfólio</title>
+    <script src="pincipal.js"></script>
 </head>
 <body>
-    <header>
-        <div>
+    <header id="cabeça">
+            <div class="principal">
+                <h1 id="nome">Ian Daniel Alves Nacimento</h1>
+                <div id="modes" onclick="trocar()"></div>
+            </div>
             <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-            <h1 id="nome">Ian Daniel Alves Nacimento</h1>
             <ul id="itens">
              <li class="EM-CIMA" id="redes"><a href="#"> Minhas redes sociais <span class="material-symbols-outlined">Keyboard_Arrow_Down</span></a>
             <ul>
@@ -24,7 +27,6 @@
              <li class="EM-CIMA"><a href="#"> Meu curriculo</a></li>
              <li class="EM-CIMA"><a href="#"> Outros</a></li>
             </ul>
-        </div>
     </header>
     <main>
         <div class="mp">
@@ -76,7 +78,7 @@
             </p>
            </section>
             <section class="img">
-                <a href="#"><img src="imagens/logo-home.jpg" alt=""></a><br>
+                <a href="#"><img src="imagens/logo-home.jpg"alt=""></a><br>
                 
                 <a href="https://www.instagram.com/ian_anm?igsh=b2dkbHRrdDVueWNh&utm_source=qr" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram"></a><br>
                 

@@ -48,13 +48,13 @@
 }
 body{
     animation: show 1.5s ease-in-out;
-    background: linear-gradient(145deg,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
+    background: linear-gradient(145deg,#121212,#121212,#030a14)fixed;
 }
 header{
     min-height:70px;
     text-align:left;
     padding:20px 0px 1px 0px;
-    background-image: linear-gradient(to bottom,#2C3E50,#3b536a);
+    background-image: linear-gradient(to bottom,black,rgb(22, 22, 22));
     color: #BDC3C7;
     font-family:montserrat;
     text-shadow: 1px 1px 2px black;
@@ -76,10 +76,9 @@ header h1{
     display: inline;
     width:8vw;
     margin-right: 50px;
-    background-image:url(imagens/light_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);
+    background-image:url(imagens/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);
     background-repeat: no-repeat;
     background-size: contain;
-    text-shadow:1px 1px 5px black;
 }
 
 #menu{
@@ -102,7 +101,7 @@ header h1{
     list-style:circle;
     list-style-position: inside;
     text-align: left;
-    background: linear-gradient(120deg, #0A1E3F, #0A1E3F, transparent );
+    background: linear-gradient(120deg,#121212,black, transparent);
 }
 
 .redes2:hover{
@@ -123,7 +122,7 @@ header h1{
 }
 
 .EM-CIMA a:hover{
-   text-shadow: 0px 0px 0.5px #00ff006b;
+   text-shadow: 0px 0px 0.5px #BB86FC ;
 }
 
 #redes ul{
@@ -151,7 +150,7 @@ header h1{
 main .mp{
     padding: 20px 0px 20px 0px;
     text-align: center;
-    background: linear-gradient(to bottom,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
+    background: linear-gradient(to bottom,black,black,#121212,#121212)fixed;
 }
 
 .mp h1{
@@ -161,11 +160,12 @@ main .mp{
     font-size:2.7em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.466);
     color: #BDC3C7; 
-    background: linear-gradient(to bottom,#06132752 , transparent );
+    background: linear-gradient(to bottom,#040d1b52 , transparent );
     border-radius: 45%;
 }
 .parallax{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     min-height: 85vh;
@@ -175,6 +175,19 @@ main .mp{
     background-repeat: no-repeat;
     background-attachment:fixed;
     box-shadow: inset 0px 0px 15px 5px black;
+    z-index: 1;
+}
+
+.parallax::after{
+    content:'';
+    background-color: black;
+    position: absolute;
+    min-height: 85vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity:0.7;
+    z-index: -1;
 }
 
 .card-wrapper{
@@ -273,7 +286,7 @@ main .mp{
         font-size:2.7em;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.466);
         color: #BDC3C7;
-        background: linear-gradient(to bottom,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
+        background: linear-gradient(to bottom,#121212,black)fixed;
     }
 .sobre{
     display: flex;
@@ -285,10 +298,10 @@ main .mp{
     flex-basis: 500px;
     flex-grow: 1;
     color: #BDC3C7;
-    background: linear-gradient(145deg,#0A1E3F,#0A1E3F,#143c7b,#2363ca)fixed;
+    background: linear-gradient(145deg,#1E1E1E,#1E1E1E,black,black)fixed;
     border: 1px solid #BDC3C7;
     border-radius:10px 2px;
-    box-shadow: 5px 5px 10px #0A1E3F;
+    box-shadow: 5px 5px 10px #040b16;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 20%;
@@ -325,7 +338,7 @@ main .mp{
     box-sizing: border-box;
 }
 .img img:hover{
-    border: 1.5px solid #00FF00;
+    border: 1.5px solid #BB86FC ;
     width: 60px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.521);
 }
@@ -381,5 +394,3 @@ main .mp{
     }
 
 }
-
-
