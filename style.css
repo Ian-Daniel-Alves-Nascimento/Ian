@@ -166,6 +166,7 @@ main .mp{
 }
 .parallax{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     min-height: 85vh;
@@ -175,6 +176,19 @@ main .mp{
     background-repeat: no-repeat;
     background-attachment:fixed;
     box-shadow: inset 0px 0px 15px 5px black;
+    z-index: 1;
+}
+
+.parallax::after{
+    content:'';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity:0;
+    z-index: -1;
 }
 
 .card-wrapper{

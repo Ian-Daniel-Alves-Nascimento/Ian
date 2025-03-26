@@ -168,7 +168,7 @@ main .mp{
     position: relative;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    min-height: 85vh;
     background-image: url('imagens/pexels-cookiecutter-17489155.jpg');
    background-position: center center;
     background-size: cover;
@@ -182,7 +182,7 @@ main .mp{
     content:'';
     background-color: black;
     position: absolute;
-    height: 85vh;
+    height: 100%;
     width: 100%;
     left: 0;
     top: 0;
