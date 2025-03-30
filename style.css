@@ -63,7 +63,7 @@ header{
 header h1{
     display:inline;
     text-align: center;
-    font-size:5vw;
+    font-size:4vw;
     padding-left:10px;
 }
 
@@ -75,7 +75,7 @@ header h1{
 #modes{
     display: inline;
     width:8vw;
-    margin-right: 50px;
+    margin: 0px 50px 0px 20px;
     background-image:url(imagens/light_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -84,7 +84,7 @@ header h1{
 
 #menu{
     display: none;
-    margin:10px 0px 0px 10px;
+    margin:0px 0px 0px 10px;
     cursor: pointer;
     font-size:5vw;
     text-shadow:2px 2px 2px black;
@@ -205,6 +205,7 @@ main .mp{
     .card-list .card-item .card-link {
         user-select: none;
         display: block;
+        margin-top: 70px;
         min-height: 500px;
         background: #BDC3C7;
         padding: 18px;
