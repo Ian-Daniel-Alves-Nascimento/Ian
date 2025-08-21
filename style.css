@@ -297,6 +297,7 @@ main .mp{
     padding: 10px 10px 10px 10px;
 }
 .texto{
+    display: flex;
     flex-basis: 500px;
     flex-grow: 1;
     color: #BDC3C7;
@@ -309,11 +310,77 @@ main .mp{
     animation-range: entry 0% cover 20%;
 }
 
+.CE{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.contato{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    border-top: 2px solid white;
+    padding: 5px 0px 5px 0px;
+    font-family: 'montserrat';
+}
+
+.contato h1{
+    text-align: center;
+    font-size: small;
+}
+
+.contato ul{
+    font-size: x-small;
+    list-style-position: inside;
+    
+}
+
+.contato2{
+    display: flex;
+    font-size: x-small;
+    align-items: center;
+    justify-content: left;
+    padding: 5px 0px 5px 0px;
+}
+
+#Idioma{
+    font-weight: bolder;
+}
+
+
+.CD{
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.CD h1{
+    display: inline-block;
+    width: 90%;
+    padding: 20px 0px 10px 0px ;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #2363ca;
+    border-bottom: 10px double black;
+}
+
+.CD h2{
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+}
+.CD p {
+    padding-bottom: 10px;
+    border-bottom: 5px double black;
+}
+
+
+
 .perfil{
-    float: left;
     width: 220px;
     height: 230px;
-    shape-outside: circle(50%);
 }
 
 .texto p{
